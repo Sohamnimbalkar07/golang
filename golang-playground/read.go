@@ -19,7 +19,7 @@ type Name struct {
 	lastName  string
 }
 
-func main() {
+func read() {
 	var fileName string
 	fmt.Print("Enter file name: ")
 	fmt.Scan(&fileName)
