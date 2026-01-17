@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func slices1() {
 
 	//it creates an underlying array with size equal to capacity
 	var slice []int = make([]int, 3)
