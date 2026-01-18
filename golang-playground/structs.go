@@ -8,7 +8,7 @@ type Person struct {
 	address string
 }
 
-func main() {
+func structs() {
 
 	var p1 Person
 
