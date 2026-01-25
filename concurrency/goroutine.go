@@ -31,7 +31,7 @@ func increment() {
 	}
 }
 
-func main() {
+func goroutine() {
 
 	// Start first goroutine
 	go increment()
