@@ -6,7 +6,7 @@ func prod(i1 int, i2 int, ch chan int) {
 	prod := i1 * i2
 	ch <- prod
 }
-func main() {
+func channel() {
 
 	ch := make(chan int)
 	go prod(2, 3, ch)
